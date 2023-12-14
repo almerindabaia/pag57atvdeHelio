@@ -1,0 +1,17 @@
+package javaapplication6;
+import javax.swing.JOptionPane;
+        public class JavaApplication6 {
+public static void main(String[] args) {
+     
+ 
+  String entrada;
+  double peso,valor;
+        entrada = JOptionPane.showInputDialog("Digite o peso do prato ");
+        peso= Double.parseDouble(entrada);
+        valor=peso*12;
+        
+        JOptionPane.showMessageDialog(null,"O valor a pagar pelo prato é "  +valor);
+    }
+}
+
+                   

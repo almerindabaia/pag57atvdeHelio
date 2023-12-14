@@ -1,0 +1,23 @@
+package javaapplication1;
+import javax.swing.JOptionPane;
+        public class JavaApplication1 {
+public static void main(String[] args) {
+     double largura,comprimento;
+        largura = Double.parseDouble(JOptionPane.showInputDialog("Digite a largura do terreno "));
+
+        comprimento = Double.parseDouble(JOptionPane.showInputDialog("Digite o comprimento do terreno  "));
+   
+
+        double area = calculararea(largura,comprimento);
+
+      
+        JOptionPane.showMessageDialog(null, "A área do terreno é: " + area);
+    }
+
+    private static double calculararea(double largura , double comprimento) {
+        return largura* comprimento;
+    }
+}
+
+   
+

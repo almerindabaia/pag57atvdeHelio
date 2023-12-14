@@ -1,0 +1,17 @@
+package javaapplication4;
+import javax.swing.JOptionPane;
+        public class JavaApplication4{
+public static void main(String[] args) {
+     
+    int num;
+    String idade;
+        idade = JOptionPane.showInputDialog("Digite sua idade");
+       num = Integer.parseInt(idade);
+        int dias = num* 365;
+
+    
+        JOptionPane.showMessageDialog(null, "Você tem  " + dias + " dias de vida.");
+    }
+}
+
+    

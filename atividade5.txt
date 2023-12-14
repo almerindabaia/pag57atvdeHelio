@@ -1,0 +1,17 @@
+package javaapplication5;
+import javax.swing.JOptionPane;
+        public class JavaApplication5{
+public static void main(String[] args) {
+     
+ 
+        String precol = JOptionPane.showInputDialog("Digite o preço do litro da gasolina:");
+        double preco = Double.parseDouble(precol);
+        String inputValorPagamento = JOptionPane.showInputDialog("Digite o valor do pagamento:");
+        double valor = Double.parseDouble(inputValorPagamento);
+        double litros = valor / preco;
+
+        JOptionPane.showMessageDialog(null, "Com " +valor +" o motorista pode colocar "+litros+ " litros no tanque");
+                   
+    }
+}
+

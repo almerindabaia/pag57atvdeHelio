@@ -1,0 +1,28 @@
+package javaapplication9;
+
+import javax.swing.JOptionPane;
+
+public class JavaApplication9 {
+    
+public static void main(String[] args) {
+
+
+     
+
+    String p,m,g;
+    double valor;
+    int num1,num2,num3;
+        p = JOptionPane.showInputDialog("Digite a quantidade de camisetas pequenas ");
+        m = JOptionPane.showInputDialog("Digite a quantidade de camisetas médias :");
+        g = JOptionPane.showInputDialog("Digite a quantidade de camisetas grandes :");
+        num1= Integer.parseInt(p);
+        num2 = Integer.parseInt(m);
+        num3 = Integer.parseInt(g);
+
+   
+        valor = num1 * 10 + num2* 12+ num3*15;
+
+      
+        JOptionPane.showMessageDialog(null,"O valor arrecadado com as vendas de camisetas é "+ valor);
+    }
+}

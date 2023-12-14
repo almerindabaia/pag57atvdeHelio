@@ -1,0 +1,27 @@
+package javaapplication2;
+import javax.swing.JOptionPane;
+        public class JavaApplication2{
+public static void main(String[] args) {
+   int num,fer;
+   String entrada;
+        entrada=JOptionPane.showInputDialog("Digite o número de cavalos ");
+        num =Integer.parseInt(entrada);
+
+       
+         fer = calcular(num);
+
+   
+        JOptionPane.showMessageDialog(null, "Para equipar " + num + " cavalos são  necessárias " + fer + " ferraduras.");
+   
+}
+    private static int calcular(int cavalos) {
+     
+        return cavalos * 4;
+    }
+}
+
+        
+
+
+   
+

@@ -1,0 +1,28 @@
+package javaapplication3;
+import javax.swing.JOptionPane;
+        public class JavaApplication3 {
+public static void main(String[] args) {
+      int num1,num2;
+      double totaldia;
+      String epao,ebroa;
+        epao = JOptionPane.showInputDialog("Digite a quantidade de pães vendidos no dia:");
+        ebroa = JOptionPane.showInputDialog("Digite a quantidade de broas vendidasno dia:");
+        num1= Integer.parseInt(epao);
+        num2 = Integer.parseInt(ebroa);
+
+   
+        totaldia = (num1 * 0.12 + num2 *1.50);
+
+ 
+        double totalmes = totaldia * 30;
+
+
+        double poupanca= 0.1 * totalmes;
+
+ 
+        JOptionPane.showMessageDialog(null,"a poupança é "+poupanca);
+ 
+    }
+}
+
+       

@@ -1,0 +1,19 @@
+package javaapplication8;
+import javax.swing.JOptionPane;
+public class JavaApplication8 {
+public static void main(String[] args) {
+String notaa,notab,notac;   
+double nota1,nota2,nota3,media;
+        notaa = JOptionPane.showInputDialog("Digite a nota 1 ");
+        notab = JOptionPane.showInputDialog("Digite a nota 2 ");
+        notac= JOptionPane.showInputDialog("Digite a nota 3 ");
+        nota1 = Double.parseDouble(notaa);
+         nota2 = Double.parseDouble(notab);
+         nota3 = Double.parseDouble(notac);
+
+       media= (nota1 * 1+ nota2 * 2+ nota3 * 3) / (1 + 2 + 3);
+
+       
+        JOptionPane.showMessageDialog(null, "A média ponderada do aluno é " +media);
+    }
+}
